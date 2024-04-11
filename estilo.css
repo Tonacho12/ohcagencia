@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5ddc0;
+    font-family: "Nokora", sans-serif;
+    text-align: center;
+}
+.header{
+    background-image: url(./fotos/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.perfil{
+    display: flex;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.ap{
+    text-align: center;
+}
+
+h1, h2{
+    color: black;
+    font-family: "Nokora", sans-serif;
+    
+}
+
+h4{
+    color: black;
+}
+
+p{
+    color: black;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(243, 209, 168);
+    padding: 80px;
+    text-align: center;
+    
+}
+p{
+    padding: 15px;
+    line-height: 1.5;
+}
+ul{
+    padding: 20px;
+    color: black;
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.infoper{
+    color: black;
+}
+/*estilo de la barra de navegacion*/
+nav{
+    padding: 1rem;
+}
+.menu{
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+.menu li a:hover{
+    background-color: rgb(243, 209, 168); ;
+    border-radius: 50%;
+}
+
+.librand{
+    line-height: 2.05rem;
+}
