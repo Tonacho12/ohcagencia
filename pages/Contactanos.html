@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../fotos/favicon-16x16.png">
+    <link rel="icon" href="../img/favicon-16x16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../estilo.css">
     <title>Agencia de management y publicidad</title>
 </head>
-
 <body>
-
     <header class="header">
         <div>
-            <img class="perfil" src="../fotos/logomark.png" alt="logo marca">
+            <img class="perfil" src="../img/logomark.png" alt="logo marca">
             <h1 class="titulo">
                 Agencia de management y publicidad
             </h1>
@@ -33,9 +32,7 @@
             </ul>
         </nav>
         <hr>
-        
     </header>
-
     <main>
         <section>
             <p > estamos comprometidos a brindarte soluciones integrales en management y publicidad que impulsen el crecimiento y el éxito de tu negocio. Nos encantaría escuchar de ti y explorar cómo podemos trabajar juntos para alcanzar tus objetivos.</p> 
@@ -44,65 +41,105 @@
                 
             <p>Ponte en contacto con nosotros hoy mismo para iniciar una conversación. Estamos aquí para responder a tus preguntas, discutir tus necesidades específicas y crear una estrategia personalizada que se adapte a tu visión y presupuesto. </p>
         </section>
-       
-
-        
         <h2>Formulario de contacto</h2>
-          <from action="">
-        <fieldset>
-            <legend class="infoper">Informacion personal</legend>
-        <div>
-            <label for="name">Nombre</label>
-            <input type="text" name="name">
-        </div>
-            <br>
-            <div>
-                <label for="surname">Apellido:</label>
-                <input type="text" name="surname">
-                </div>
-            <br>
-            <div>
-            <label for="mail"></label> E-mail
-                <input type="email" name="mail">
+        <form class="tamañotabla m-auto bordebeige">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp"></div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input type="name" class="form-control" id="exampleInputName" >
+              <div  class="form-text"></div>
             </div>
-              
-            <br>
-                <div>
-                    <label for="num">Telefono/celular</label>
-                    <input type="password" name="name">
-                </div>
-                <br>
-                <div>
-                    <label for="pais"> elije tu pais:</label>
-                    <select name="pais" id="">
-                    <option value="arg">Argentina</option>
-                    <option value="cl">Chile</option>
-                    <option value="uy">Uruguay</option>
-                    <option value="bol">Bolivia</option>
-                    <option value="ven">Venezuela</option>
-                    <option value="per">Perú</option>
-                    <option value="cl">Colombia</option>
-                    </select>
-                </div>
-                <br>
-                <input type="submit" value="Enviar datos">
-            </div>
-        </fieldset>
-    </from>
-
-
-    </main>
-
-    <footer class="footer">
-
-        
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                <input type="surname" class="form-control" id="exampleInputSurname" >
+                <div  class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Numero de Telefono/Celular</label>
+                <input type="tel" class="form-control" id="exampleInputMobile" >
+                <div  class="form-text">Tus datos no se compartiran</div>
+              </div>
             
+            <div>
+                <label for="pais"> élije tu pais:</label>
+                <select name="pais" id="">
+                <option value="arg">Argentina</option>
+                <option value="cl">Chile</option>
+                <option value="uy">Uruguay</option>
+                <option value="bol">Bolivia</option>
+                <option value="ven">Venezuela</option>
+                <option value="per">Perú</option>
+                <option value="cl">Colombia</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  COMO TRABAJAMOS
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Ofrecemos soluciones integrales en management, publicidad, branding y creación de contenido, adaptadas a las necesidades cambiantes del mercado actual. Ya sea de forma virtual o presencial, nuestro equipo de expertos está comprometido en brindarle resultados excepcionales y estrategias innovadoras para impulsar su negocio.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  QUIENES SOMOS
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Somos tu aliado estratégico en el mundo del management, publicidad, branding y redes sociales. Desde nuestra fundación, nos hemos dedicado a ayudar a empresas y marcas a crecer, conectarse con su audiencia y alcanzar sus objetivos comerciales en el dinámico paisaje digital.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  METODOS DE PAGO
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  NUESTROS METODOS DE PAGO
+                    1. Transferencia Bancaria
+                    
+                    Nacional: Aceptamos transferencias bancarias locales para facilitar el pago de nuestros servicios.
+                    Internacional: También ofrecemos opciones de transferencia bancaria internacional para nuestros clientes en el extranjero.
+                    2. Tarjetas de Crédito/Débito
+                    
+                    Aceptamos todas las principales tarjetas de crédito y débito, incluyendo Visa, MasterCard, American Express, entre otras.
+                    3. PayPal
+                    
+                    Para mayor comodidad y seguridad, aceptamos pagos a través de PayPal, permitiendo a nuestros clientes realizar transacciones de forma rápida y segura.
+                    4. Plataformas de Pago en Línea
+                    
+                    Ofrecemos la opción de realizar pagos a través de plataformas de pago en línea populares, como Stripe, MercadoPago, entre otras.
+                    5. Pagos en Efectivo
+                    
+                    Si prefiere realizar el pago de forma presencial, también aceptamos pagos en efectivo en nuestras oficinas.
+                    Seguridad y Confidencialidad
+                    La seguridad de sus datos y la confidencialidad de su información son nuestras prioridades. Todos nuestros métodos de pago están protegidos con las más altas medidas de seguridad para garantizar una transacción segura y sin riesgos.
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer class="footer">
         <h4>E-mail 📩 ohcagencia@gmail.com</h4>
-        <h4><a href="https://www.instagram.com/ohcagencia?utm_source=qr&igsh=MTU0cGJpbW9ka3R0eA%3D%3D" target="_blank"><img src="../fotos/instagram.png" alt=""> @ohcagencia</h4>
+        <h4><a href="https://www.instagram.com/ohcagencia?utm_source=qr&igsh=MTU0cGJpbW9ka3R0eA%3D%3D" target="_blank"><img src="../img/instagram.png" alt=""> @ohcagencia</h4>
         </a>
-
     </footer>
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
