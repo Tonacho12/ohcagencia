@@ -8,33 +8,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./css/estilo.css">
     <title> Agencia de management y publicidad</title>
 </head>
 <body>
-    <main>
-            <header class="border header">
-                <img class="perfil" src="./img/logomark.png" alt="logo marca">
-                <h1 class="titulo">
-                    Agencia de management y publicidad
-                </h1>
-                <h2 class="ap">
-                    AGENCIA
-                </h2>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li> <a href="index.html">Inicio</a></li>
-                    <li> <a href="./pages/Nosotros.html">Nosotros</a></li>
-                    <li> <a href="./branding.html">Creacion de contenido y Branding</a></li>
-                    <li> <a href="./pages/Contactanos.html">Contactanos</a></li>
-                    <li> <a href="./managementypublicidad.html">Management y publicidad</a></li>
+    <header class="header">
+        <img class="perfil" src="./img/logomark.png" alt="logo marca">
+        <h1 class="titulo">
+            Agencia de management y publicidad
+        </h1>
+        <h2 class="ap">
+            AGENCIA
+        </h2>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/branding.html">Branding y contenido</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/Contactanos.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/managementypublicidad.html">Management y Publicidad</a>
+                  </li>
                 </ul>
-            </nav>
-            </header>
+              </div>
+            </div>
+          </nav>
+    </nav>
+    </header>
+    <main>
             <section1 class="bienvenida border">
-                <p> ¡Bienvenidos a OHC!
-                </p>
+                <h2>¡Bienvenidos a OHC!</h2>
                 <div id="carouselExample" class="carousel slide">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -70,20 +87,20 @@
             </section1>
             <section2 class="objetivos border">
                 <div>
-                    <p>
-                        objetivos:
-                        <ul>acompañar y ser partícipe del desarrollo y crecimiento de nuestros clientes.</ul>
-                        <ul>estar a la altura de los compromisos acordados.</ul>
-                    </p>
+                       <h2> objetivos:</h2>
+                       <ul>
+                        <li>acompañar y ser partícipe del desarrollo y crecimiento de nuestros clientes.</li>
+                        <li>estar a la altura de los compromisos acordados.</li>
+                       </ul>
                 </div>
             </section2>
             <section3 class="valores border">
-                <p>
+            <ul>
                     valores:
-                    <ul>HONESTIDAD</ul>
-                    <ul>COMPROMISO</ul>
-                    <ul>SERVICIALIDAD</ul>
-                </p>
+                    <li>HONESTIDAD</li>
+                    <li>COMPROMISO</li>
+                    <li>SERVICIALIDAD</li>
+            </ul>
                 <P>
                     forma de trabajo: trabajamos de manera virtual y presencial dependiendo del servicio solicitado.
                 </P>  
@@ -92,8 +109,7 @@
     </main>
     <footer class="footer border">
         <h4>E-mail 📩 ohcagencia@gmail.com</h4>
-        <h4><a href="https://www.instagram.com/ohcagencia?utm_source=qr&igsh=MTU0cGJpbW9ka3R0eA%3D%3D" target="_blank"><img src="./img/instagram.png" alt=""> @ohcagencia</h4>
-        </a>
+       <a href="https://www.instagram.com/ohcagencia?utm_source=qr&igsh=MTU0cGJpbW9ka3R0eA%3D%3D" target="_blank"><img src="./img/instagram.png" alt=""> @ohcagencia
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

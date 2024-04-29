@@ -23,11 +23,11 @@
   .border{
     border: black;
   }
-  
+ 
   .header { grid-area: header; 
-  background-image: url(./img/background.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;}
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;}
 
   
   .bienvenida { grid-area: Bienvenida; }
@@ -44,23 +44,17 @@ border: black;
     background-color: #f3d1a8;
     padding: 80px;
     text-align: center;} 
-    @media screen and(min-width:480px){
-        .header { grid-area: header; 
-            background-image: url(./img/background.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;}
+   
             body{
-                background-color: black;
+                background-color: #fae3c8;
                 font-family: "Nokora", sans-serif;
                 text-align: center;
         }
+        body{
+            background-color:  #fae3c8;
+            font-family: "Nokora", sans-serif;
+            text-align: center;
     }
- body{
-        background-color: rgb(243, 219, 191);
-        font-family: "Nokora", sans-serif;
-        text-align: center;
-}
-    
 
 .perfil{
     text-align: center;
@@ -73,7 +67,12 @@ border: black;
     text-align: center;
 }
 
-h1, h2{
+h1{
+    backdrop-filter: blur(10px);
+    font-family: "Nokora", sans-serif;
+}
+
+h2{
     color:black;
     font-family: "Nokora", sans-serif;
     
@@ -96,6 +95,7 @@ ul{
     padding: 20px;
     color: black;
     list-style-type: none;
+    backdrop-filter: blur(10px);
 }
 
 a{
@@ -138,4 +138,10 @@ nav{
     background-color: rgb(243, 219, 191);
     border: black 2px;
 }
-  
+.btn-primary{
+    background-color: black;
+    border: black;
+}
+.container-fluid{
+    background-color: #fae3c8;
+}
