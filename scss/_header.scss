@@ -1,0 +1,32 @@
+header{
+    padding: 5px;
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .titulo{
+        text-align: center;
+    }
+    h1{
+        backdrop-filter: blur(10px);
+        font-family: "Nokora", sans-serif;
+    }
+    h2{
+        backdrop-filter: blur(10px);
+        font-family: "Nokora", sans-serif;
+    }
+    .perfil{
+        text-align: center;
+        width: 200px;
+        border-radius: 50%;
+        &:hover{
+            border: $color_footer_card 3px solid;
+        }
+
+    }
+    .ap{
+        text-align: center;
+    }
+    }
+    .container-fluid{
+        background-color: #fae3c8;
+    }

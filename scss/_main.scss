@@ -1,0 +1,35 @@
+main{
+    .p{
+    color: black;
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5;
+    }
+    .objetivos{
+    color:black;
+    font-family: "Nokora", sans-serif;
+    }
+    .border{
+        color:black;
+    }
+    .card-body{
+        background-color: $colorprincipal;
+        border: black;
+    
+    }
+    .btn-primary{
+        background-color: black;
+        border: black;
+    }
+    .tamañotabla{
+        width: 400px;
+    }
+    ul{
+        padding: 20px;
+        color: black;
+        list-style-type: none;
+    }
+    h4{
+        color: black;
+    }
+}
