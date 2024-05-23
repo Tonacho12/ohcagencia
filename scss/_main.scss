@@ -21,6 +21,10 @@ main{
         background-color: black;
         border: black;
     }
+    .zoom:hover{
+        transform: scale(0.50,0.50 );
+
+    }
     .tamañotabla{
         width: 400px;
     }
